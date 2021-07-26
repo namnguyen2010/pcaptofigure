@@ -5,7 +5,6 @@ Converting wireshark packet capture (pcap) into info, illustrations, etc.
 ## Requirements
 - wireshark
 - python 3.6
-- [mscgen](https://www.mcternan.me.uk/mscgen/) (optional, for convering to image files)
 
 ## Installation
 `https://github.com/namnguyen2010/pcaptofigure.git`
