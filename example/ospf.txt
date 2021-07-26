@@ -1,0 +1,33 @@
+```sequence
+192.168.170.8 -> 224.0.0.5: *OSPF*: Hello Packet
+192.168.170.8 -> 224.0.0.5: *OSPF*: Hello Packet
+192.168.170.8 -> 224.0.0.5: *OSPF*: Hello Packet
+192.168.170.8 -> 224.0.0.5: *OSPF*: Hello Packet
+192.168.170.8 -> 224.0.0.5: *OSPF*: Hello Packet
+192.168.170.8 -> 224.0.0.5: *OSPF*: Hello Packet
+192.168.170.2 -> 224.0.0.5: *OSPF*: Hello Packet
+192.168.170.8 -> 224.0.0.5: *OSPF*: Hello Packet
+192.168.170.2 -> 224.0.0.5: *OSPF*: Hello Packet
+192.168.170.8 -> 192.168.170.2: *OSPF*: DB Description
+192.168.170.2 -> 192.168.170.8: *OSPF*: DB Description
+192.168.170.2 -> 192.168.170.8: *OSPF*: DB Description
+192.168.170.8 -> 192.168.170.2: *OSPF*: DB Description
+192.168.170.2 -> 192.168.170.8: *OSPF*: DB Description
+192.168.170.8 -> 192.168.170.2: *OSPF*: DB Description
+192.168.170.2 -> 192.168.170.8: *OSPF*: DB Description
+192.168.170.2 -> 192.168.170.8: *OSPF*: LS Request
+192.168.170.8 -> 192.168.170.2: *OSPF*: LS Request
+192.168.170.8 -> 224.0.0.5: *OSPF*: LS Update
+192.168.170.2 -> 224.0.0.6: *OSPF*: LS Update
+192.168.170.2 -> 224.0.0.6: *OSPF*: LS Update
+192.168.170.8 -> 224.0.0.5: *OSPF*: LS Update
+192.168.170.8 -> 224.0.0.5: *OSPF*: LS Update
+192.168.170.8 -> 224.0.0.5: *OSPF*: LS Acknowledge
+192.168.170.2 -> 224.0.0.6: *OSPF*: LS Update
+192.168.170.8 -> 224.0.0.5: *OSPF*: LS Acknowledge
+192.168.170.2 -> 192.168.170.8: *OSPF*: LS Update
+192.168.170.8 -> 192.168.170.2: *OSPF*: LS Acknowledge
+192.168.170.2 -> 224.0.0.6: *OSPF*: LS Update
+192.168.170.8 -> 192.168.170.2: *OSPF*: LS Acknowledge
+192.168.170.8 -> 224.0.0.5: *OSPF*: Hello Packet
+```

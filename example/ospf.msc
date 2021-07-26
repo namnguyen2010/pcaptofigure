@@ -1,0 +1,35 @@
+msc {
+
+  "192.168.170.8", "224.0.0.5", "192.168.170.2", "224.0.0.6";
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+  "192.168.170.2"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+  "192.168.170.2"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+  "192.168.170.8"=>"192.168.170.2" [label="(OSPF)  DB Description"];
+  "192.168.170.2"=>"192.168.170.8" [label="(OSPF)  DB Description"];
+  "192.168.170.2"=>"192.168.170.8" [label="(OSPF)  DB Description"];
+  "192.168.170.8"=>"192.168.170.2" [label="(OSPF)  DB Description"];
+  "192.168.170.2"=>"192.168.170.8" [label="(OSPF)  DB Description"];
+  "192.168.170.8"=>"192.168.170.2" [label="(OSPF)  DB Description"];
+  "192.168.170.2"=>"192.168.170.8" [label="(OSPF)  DB Description"];
+  "192.168.170.2"=>"192.168.170.8" [label="(OSPF)  LS Request"];
+  "192.168.170.8"=>"192.168.170.2" [label="(OSPF)  LS Request"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  LS Update"];
+  "192.168.170.2"=>"224.0.0.6" [label="(OSPF)  LS Update"];
+  "192.168.170.2"=>"224.0.0.6" [label="(OSPF)  LS Update"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  LS Update"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  LS Update"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  LS Acknowledge"];
+  "192.168.170.2"=>"224.0.0.6" [label="(OSPF)  LS Update"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  LS Acknowledge"];
+  "192.168.170.2"=>"192.168.170.8" [label="(OSPF)  LS Update"];
+  "192.168.170.8"=>"192.168.170.2" [label="(OSPF)  LS Acknowledge"];
+  "192.168.170.2"=>"224.0.0.6" [label="(OSPF)  LS Update"];
+  "192.168.170.8"=>"192.168.170.2" [label="(OSPF)  LS Acknowledge"];
+  "192.168.170.8"=>"224.0.0.5" [label="(OSPF)  Hello Packet"];
+}

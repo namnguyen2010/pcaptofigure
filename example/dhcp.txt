@@ -1,0 +1,6 @@
+```sequence
+0.0.0.0 -> 255.255.255.255: *DHCP*: DHCP Discover - Transaction ID 0x3d1d
+192.168.0.1 -> 192.168.0.10: *DHCP*: DHCP Offer - Transaction ID 0x3d1d
+0.0.0.0 -> 255.255.255.255: *DHCP*: DHCP Request - Transaction ID 0x3d1e
+192.168.0.1 -> 192.168.0.10: *DHCP*: DHCP ACK - Transaction ID 0x3d1e
+```

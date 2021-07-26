@@ -1,0 +1,167 @@
+Packet (Length: 76)
+Layer RADIOTAP:
+	Header revision: 0
+	Header pad: 0
+	Header length: 56
+	Present flags
+	Present flags word: 0xa040402f
+	.... .... .... .... .... .... .... ...1 = TSFT: Present
+	.... .... .... .... .... .... .... ..1. = Flags: Present
+	.... .... .... .... .... .... .... .1.. = Rate: Present
+	.... .... .... .... .... .... .... 1... = Channel: Present
+	.... .... .... .... .... .... ...0 .... = FHSS: Absent
+	.... .... .... .... .... .... ..1. .... = dBm Antenna Signal: Present
+	.... .... .... .... .... .... .0.. .... = dBm Antenna Noise: Absent
+	.... .... .... .... .... .... 0... .... = Lock Quality: Absent
+	.... .... .... .... .... ...0 .... .... = TX Attenuation: Absent
+	.... .... .... .... .... ..0. .... .... = dB TX Attenuation: Absent
+	.... .... .... .... .... .0.. .... .... = dBm TX Power: Absent
+	.... .... .... .... .... 0... .... .... = Antenna: Absent
+	.... .... .... .... ...0 .... .... .... = dB Antenna Signal: Absent
+	.... .... .... .... ..0. .... .... .... = dB Antenna Noise: Absent
+	.... .... .... .... .1.. .... .... .... = RX flags: Present
+	.... .... .... .... 0... .... .... .... = TX flags: Absent
+	.... .... .... .0.. .... .... .... .... = Channel+: Absent
+	.... .... .... 0... .... .... .... .... = MCS information: Absent
+	.... .... ...0 .... .... .... .... .... = A-MPDU Status: Absent
+	.... .... ..0. .... .... .... .... .... = VHT information: Absent
+	.... .... .1.. .... .... .... .... .... = frame timestamp: Present
+	.... .... 0... .... .... .... .... .... = HE information: Absent
+	.... ...0 .... .... .... .... .... .... = HE-MU information: Absent
+	.... .0.. .... .... .... .... .... .... = 0 Length PSDU: Absent
+	.... 0... .... .... .... .... .... .... = L-SIG: Absent
+	...0 .... .... .... .... .... .... .... = TLVs: Absent
+	..1. .... .... .... .... .... .... .... = Radiotap NS next: True
+	.0.. .... .... .... .... .... .... .... = Vendor NS next: False
+	1... .... .... .... .... .... .... .... = Ext: Present
+	MAC timestamp: 507703007
+	Flags: 0x10
+	.... ...0 = CFP: False
+	.... ..0. = Preamble: Long
+	.... .0.. = WEP: False
+	.... 0... = Fragmentation: False
+	...1 .... = FCS at end: True
+	..0. .... = Data Pad: False
+	.0.. .... = Bad FCS: False
+	0... .... = Short GI: False
+	Data Rate: 24.0 Mb/s
+	Channel frequency: 5180 [A 36]
+	Channel flags: 0x0140, Orthogonal Frequency-Division Multiplexing (OFDM), 5 GHz spectrum
+	.... .... ...0 .... = Turbo: False
+	.... .... ..0. .... = Complementary Code Keying (CCK): False
+	.... .... .1.. .... = Orthogonal Frequency-Division Multiplexing (OFDM): True
+	.... .... 0... .... = 2 GHz spectrum: False
+	.... ...1 .... .... = 5 GHz spectrum: True
+	.... ..0. .... .... = Passive: False
+	.... .0.. .... .... = Dynamic CCK-OFDM: False
+	.... 0... .... .... = Gaussian Frequency Shift Keying (GFSK): False
+	...0 .... .... .... = GSM (900MHz): False
+	..0. .... .... .... = Static Turbo: False
+	.0.. .... .... .... = Half Rate Channel (10MHz Channel Width): False
+	0... .... .... .... = Quarter Rate Channel (5MHz Channel Width): False
+	Antenna signal: -65 dBm
+	RX flags: 0x0000
+	.... .... .... .... .... ..0. = Bad PLCP: False
+	timestamp information
+	timestamp: 507729554
+	accuracy: 22
+	.... 0001 = time unit: usec (1)
+	0001 .... = sampling position: signal acquisition (1)
+	.... ...1 = 32-bit counter: Yes
+	.... ..1. = accuracy field: Present
+	Antenna: 0
+	Present flags word: 0xa0000820
+	Present flags word: 0x00000820
+	.... .... .... .... .... .... .... ...0 = TSFT: Absent
+	.... .... .... .... .... .... .... ...0 = TSFT: Absent
+	.... .... .... .... .... .... .... ..0. = Flags: Absent
+	.... .... .... .... .... .... .... ..0. = Flags: Absent
+	.... .... .... .... .... .... .... .0.. = Rate: Absent
+	.... .... .... .... .... .... .... .0.. = Rate: Absent
+	.... .... .... .... .... .... .... 0... = Channel: Absent
+	.... .... .... .... .... .... .... 0... = Channel: Absent
+	.... .... .... .... .... .... ...0 .... = FHSS: Absent
+	.... .... .... .... .... .... ...0 .... = FHSS: Absent
+	.... .... .... .... .... .... ..1. .... = dBm Antenna Signal: Present
+	.... .... .... .... .... .... ..1. .... = dBm Antenna Signal: Present
+	.... .... .... .... .... .... .0.. .... = dBm Antenna Noise: Absent
+	.... .... .... .... .... .... .0.. .... = dBm Antenna Noise: Absent
+	.... .... .... .... .... .... 0... .... = Lock Quality: Absent
+	.... .... .... .... .... .... 0... .... = Lock Quality: Absent
+	.... .... .... .... .... ...0 .... .... = TX Attenuation: Absent
+	.... .... .... .... .... ...0 .... .... = TX Attenuation: Absent
+	.... .... .... .... .... ..0. .... .... = dB TX Attenuation: Absent
+	.... .... .... .... .... ..0. .... .... = dB TX Attenuation: Absent
+	.... .... .... .... .... .0.. .... .... = dBm TX Power: Absent
+	.... .... .... .... .... .0.. .... .... = dBm TX Power: Absent
+	.... .... .... .... .... 1... .... .... = Antenna: Present
+	.... .... .... .... .... 1... .... .... = Antenna: Present
+	.... .... .... .... ...0 .... .... .... = dB Antenna Signal: Absent
+	.... .... .... .... ...0 .... .... .... = dB Antenna Signal: Absent
+	.... .... .... .... ..0. .... .... .... = dB Antenna Noise: Absent
+	.... .... .... .... ..0. .... .... .... = dB Antenna Noise: Absent
+	.... .... .... .... .0.. .... .... .... = RX flags: Absent
+	.... .... .... .... .0.. .... .... .... = RX flags: Absent
+	.... .... .... .... 0... .... .... .... = TX flags: Absent
+	.... .... .... .... 0... .... .... .... = TX flags: Absent
+	.... .... .... .0.. .... .... .... .... = Channel+: Absent
+	.... .... .... .0.. .... .... .... .... = Channel+: Absent
+	.... .... .... 0... .... .... .... .... = MCS information: Absent
+	.... .... .... 0... .... .... .... .... = MCS information: Absent
+	.... .... ...0 .... .... .... .... .... = A-MPDU Status: Absent
+	.... .... ...0 .... .... .... .... .... = A-MPDU Status: Absent
+	.... .... ..0. .... .... .... .... .... = VHT information: Absent
+	.... .... ..0. .... .... .... .... .... = VHT information: Absent
+	.... .... .0.. .... .... .... .... .... = frame timestamp: Absent
+	.... .... .0.. .... .... .... .... .... = frame timestamp: Absent
+	.... .... 0... .... .... .... .... .... = HE information: Absent
+	.... .... 0... .... .... .... .... .... = HE information: Absent
+	.... ...0 .... .... .... .... .... .... = HE-MU information: Absent
+	.... ...0 .... .... .... .... .... .... = HE-MU information: Absent
+	.... .0.. .... .... .... .... .... .... = 0 Length PSDU: Absent
+	.... .0.. .... .... .... .... .... .... = 0 Length PSDU: Absent
+	.... 0... .... .... .... .... .... .... = L-SIG: Absent
+	.... 0... .... .... .... .... .... .... = L-SIG: Absent
+	...0 .... .... .... .... .... .... .... = TLVs: Absent
+	...0 .... .... .... .... .... .... .... = TLVs: Absent
+	..1. .... .... .... .... .... .... .... = Radiotap NS next: True
+	..0. .... .... .... .... .... .... .... = Radiotap NS next: False
+	.0.. .... .... .... .... .... .... .... = Vendor NS next: False
+	.0.. .... .... .... .... .... .... .... = Vendor NS next: False
+	1... .... .... .... .... .... .... .... = Ext: Present
+	0... .... .... .... .... .... .... .... = Ext: Absent
+	Antenna signal: -65 dBm
+	Antenna signal: -68 dBm
+	Antenna: 1
+Layer WLAN_RADIO:
+	PHY type: 802.11a (OFDM) (5)
+	Turbo type: Non-turbo (0)
+	Data rate: 24.0 Mb/s
+	Channel: 36
+	Frequency: 5180MHz
+	Signal strength (dBm): -68 dBm
+	TSF timestamp: 507703007
+	Duration: 28탎
+	Preamble: 20탎
+	IFS: 506탎
+	Start: 507702979탎
+	End: 507703007탎
+Layer WLAN:
+	Type/Subtype: Request-to-send (0x001b)
+	Frame Control Field: 0xb400
+	.... ..00 = Version: 0
+	.... 01.. = Type: Control frame (1)
+	1011 .... = Subtype: 11
+	Flags: 0x00
+	.... ..00 = DS status: Not leaving DS or network is operating in AD-HOC mode (To DS: 0 From DS: 0) (0x0)
+	.... .0.. = More Fragments: This is the last fragment
+	.... 0... = Retry: Frame is not being retransmitted
+	...0 .... = PWR MGT: STA will stay up
+	..0. .... = More Data: No data buffered
+	.0.. .... = Protected flag: Data is not protected
+	0... .... = +HTC/Order flag: Not strictly ordered
+	.000 0000 1110 1110 = Duration: 238 microseconds
+	Receiver address: e6:96:2b:48:98:d5
+	Transmitter address: bc:0f:9a:58:d3:9d
+	Frame check sequence: 0x6b989e3d [unverified]
+	FCS Status: Unverified
