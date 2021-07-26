@@ -8,7 +8,7 @@ Converting wireshark packet capture (pcap) into info, illustrations, etc.
 - [mscgen](https://www.mcternan.me.uk/mscgen/) (optional, for convering to image files)
 
 ## Installation
-`git clone https://github.com/vhchuong1997/pcap_reading.git`
+`https://github.com/namnguyen2010/pcaptofigure.git`
 
 ## Usage
 - `python pcaptotxt.py -i <pcap_file_input> -o <txt_file_output>`
